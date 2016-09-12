@@ -1,0 +1,271 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.navbar-default, a {
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s
+}
+
+
+body, html {
+	height: 100%;
+	width: 100%
+}
+
+body {
+	webkit-tap-highlight-color: #222
+}
+
+
+hr {
+	border-color: #Ffffff;
+	border-width: 3px;
+	max-width: 1000px
+}
+
+hr.light {
+	border-color: #fff
+}
+
+a {
+	transition: all .35s;
+	color: #FFEBFE
+}
+
+a:focus, a:hover {
+	color: #eb3812
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px
+}
+
+.text-faded {
+	color: rgba(255, 255, 255, .7)
+}
+
+section {
+	padding: 0px 0
+}
+
+aside {
+	padding: 0px 0
+}
+
+.no-padding {
+	padding: 0
+}
+
+
+@media ( min-width :768px) {
+	.navbar-default {
+		background-color: transparent;
+		border-color: rgba(255, 255, 255, .3)
+	}
+	.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+		color: rgba(255, 255, 255, .7)
+	}
+	.navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
+		color: #fff
+	}
+	.navbar-default.affix {
+		background-color: #fff;
+		border-color: rgba(34, 34, 34, .05)
+	}
+	.navbar-default.affix {
+		color: #FFEBFE;
+		font-size: 14px
+	}
+	.navbar-default.affix:focus, .navbar-default.affix:hover {
+		color: #eb3812
+	}
+	.navbar-default.affix .nav>li>a, .navbar-default.affix .nav>li>a:focus {
+		color: #222
+	}
+	.navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover
+		{
+		color: #FFEBFE
+	}
+}
+
+section {
+	min-height: auto;
+	
+	background-size: contain;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url(../img/1bears/2pic.jpg);
+	color: #fff
+}
+
+.service-box h3 {
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0
+}
+
+.service-box hr {
+	margin: 30px auto
+}
+
+@media ( min-width :768px) {
+	.service-box h3 {
+		font-size: 30px;
+		font-family: 'Hanna', sans-serif
+	}
+	
+}
+
+.section-heading {
+	margin-top: 0
+}
+
+.service-box {
+	max-width: 1000px;
+	height:900px;
+	padding:70px
+}
+
+@media ( min-width :992px) {
+	.service-box {
+		margin: 20px auto 0
+	}
+}
+
+.service-box p {
+	margin-bottom: 0
+}
+
+
+
+
+.call-to-action h2 {
+	margin: 0 auto 20px
+}
+
+.text-primary {
+	color: #FFffff
+}
+
+.no-gutter>[class*=col-] {
+	padding-right: 0;
+	padding-left: 0
+}
+
+::-moz-selection {
+	color: #fff;
+	text-shadow: none;
+	background: #222
+}
+
+::selection {
+	color: #fff;
+	text-shadow: none;
+	background: #222
+}
+
+img::selection {
+	color: #fff;
+	background: 0 0
+}
+
+img::-moz-selection {
+	color: #fff;
+	background: 0 0
+}
+
+.menubar {
+	background: rgba(255, 255, 255, 0.4);
+	border: none;
+	font-family: 'Jeju Gothic', serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.menubar a {
+	color: #000000;
+	display: block;
+	font-weight: normal;
+	line-height: 50px;
+	margin: 0px;
+	padding: 0px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+.menubar a:hover {
+	background: #f2f2f2;
+	color: #000000 text-decoration: none;
+}
+
+.menubar a {
+	background: #f2f2f2;
+	border: 0.5px solid #f2f2f2;
+	color: #000000;
+	text-decoration: none;
+}
+
+.menubar a {
+	background: none;
+	display: block;
+	height: 50px;
+	font-size: 12px;
+	font-style: normal;
+	margin: 0px;
+	text-align: left;
+}
+
+.menubar a:hover {
+	background: #f2f2f2;
+	border: 1px solid black;
+	color: #000000;
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+
+table.table-style-three {
+        font-size: 18px;
+        color: #333333;
+        width: 600px;
+        margin-bottom:auto;
+        margin-right:auto;
+        margin-left:auto;
+        margint-top:35px;
+        border-width:1px;
+        border-style: solid;
+        border-color: rgba(255,255,255,0.5);
+        font-family:'Jeju Gothic', serif;
+    }
+    table.table-style-three th {
+        padding: 5px;
+        text-align:center;
+        background-color: rgba(252,100,114,0.8);
+        color: #ffffff
+    }
+    table.table-style-three tr:hover td {
+        cursor: pointer;
+    }
+    table.table-style-three tr:nth-child(even) td{
+        background-color: rgba(247,207,207,0.7);
+    }
+    table.table-style-three td {
+        padding: 5px;
+        text-align:center;
+        background-color: rgba(255,255,255,0.7);
+    }
